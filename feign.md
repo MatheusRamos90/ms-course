@@ -7,5 +7,8 @@ Com isso o maven irá baixar as novas dependencias que será incluídas no pom.x
 
 Na classe principal da aplicação (starter), colocar a anotação '@EnableFeignClients'.
 
+- Tudo o que será feito abaixo será feito de forma MANUAL por enquanto
+
 Criar uma interface que chama outro serviço/projeto.
 Anotações especiais: @FeignClient(name = "hr-worker", url = "localhost:8001", path = "/workers")
+

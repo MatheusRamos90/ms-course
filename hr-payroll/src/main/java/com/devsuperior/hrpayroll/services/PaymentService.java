@@ -13,10 +13,7 @@ public class PaymentService {
 	@Autowired
 	private WorkerFeignClient workerFeignClient;
 
-	public Payment getPayment(Long workerId, Integer days) {		
-		/* Com RestTemplate */ 
-//		Worker worker = restTemplate.getForObject(workerHost + "/workers/{id}", Worker.class, uriVariables);
-		
+	public Payment getPayment(Long workerId, Integer days) {				
 		Worker worker = workerFeignClient.findById(workerId).getBody();
 		return new Payment(worker.getName(), worker.getDailyIncome(), days);
 	}
