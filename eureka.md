@@ -41,3 +41,5 @@ Na classe de aplicação do projeto 'worker' e do 'payroll' incluir a anotação
 
 ### Observação
 - Com o que foi feito acima nós conseguimos identificar o servidor eureka, e registramos nele os nossos microserviços
+
+Depois disso, pode-se conferir no endereço 'http://localhost:8761' o dashboard do Eureka.
