@@ -19,6 +19,10 @@ public class HrConfigServerApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
+		/**
+		 * O valor abaixo foi pego do 'application.properties', cujo mesmo descreve as variáveis de ambiente do sistema operacional, 
+		 * mas pode ser utilizado através das environments da IDE. 
+		 * */
 //		System.out.println("USERNAME = " + username);
 	}
 
