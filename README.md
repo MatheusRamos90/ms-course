@@ -1,1 +1,1 @@
-# ms-course
+App for tests with Spring Cloud.
